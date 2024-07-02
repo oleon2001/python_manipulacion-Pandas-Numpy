@@ -12,7 +12,7 @@ def generar_contrasena(longitud, caracteres):
     Contraseña generada aleatoriamente (str).
   """
   contrasena = ""
-  for _ in range(longitud):
+  for x in range(longitud):
     contrasena += random.choice(caracteres)
   return contrasena
 
